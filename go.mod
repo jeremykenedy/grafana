@@ -29,7 +29,6 @@ require (
 	github.com/go-xorm/core v0.6.2
 	github.com/go-xorm/xorm v0.7.1
 	github.com/gobwas/glob v0.2.3
-	github.com/google/go-cmp v0.2.0 // indirect
 	github.com/gopherjs/gopherjs v0.0.0-20190411002643-bd77b112433e // indirect
 	github.com/gorilla/websocket v1.4.0
 	github.com/gosimple/slug v1.4.2
@@ -49,10 +48,10 @@ require (
 	github.com/onsi/gomega v1.5.0 // indirect
 	github.com/opentracing/opentracing-go v1.1.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	github.com/pkg/errors v0.8.1
-	github.com/prometheus/client_golang v0.9.2
-	github.com/prometheus/client_model v0.0.0-20190129233127-fd36f4220a90
-	github.com/prometheus/common v0.2.0
+	github.com/pkg/errors v0.9.1
+	github.com/prometheus/client_golang v1.11.1
+	github.com/prometheus/client_model v0.2.0
+	github.com/prometheus/common v0.26.0
 	github.com/rainycape/unidecode v0.0.0-20150907023854-cb7f23ec59be // indirect
 	github.com/sergi/go-diff v1.0.0 // indirect
 	github.com/smartystreets/assertions v0.0.0-20190401211740-f487f9de1cd3 // indirect
@@ -65,11 +64,9 @@ require (
 	github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 // indirect
 	github.com/yudai/pp v2.0.1+incompatible // indirect
 	go.uber.org/atomic v1.3.2 // indirect
-	golang.org/x/crypto v0.0.0-20190411191339-88737f569e3a // indirect
-	golang.org/x/net v0.0.0-20190415100556-4a65cf94b679
+	golang.org/x/net v0.0.0-20200625001655-4c5254603344
 	golang.org/x/oauth2 v0.0.0-20190319182350-c85d3e98c914
-	golang.org/x/sync v0.0.0-20190227155943-e225da77a7e6
-	golang.org/x/sys v0.0.0-20190415081028-16da32be82c5 // indirect
+	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d // indirect
 	gopkg.in/bufio.v1 v1.0.0-20140618132640-567b2bfa514e // indirect
@@ -79,5 +76,5 @@ require (
 	gopkg.in/mail.v2 v2.3.1
 	gopkg.in/redis.v2 v2.3.2
 	gopkg.in/square/go-jose.v2 v2.3.0
-	gopkg.in/yaml.v2 v2.2.2
+	gopkg.in/yaml.v2 v2.3.0
 )
